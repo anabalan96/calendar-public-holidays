@@ -1,0 +1,26 @@
+.logo {
+  width: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.header-title{
+  font-size: 25px;
+
+}
+
+.header-globe {
+  font-size: 80px;
+  color: rgb(10, 55, 58);
+  position: relative;
+  right: 5px;
+}

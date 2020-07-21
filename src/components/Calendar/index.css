@@ -1,0 +1,134 @@
+/* .calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr {
+    padding: 0;
+    margin: 0;
+
+} */
+
+.calendar-container {
+  
+    margin-bottom: 20px;
+}
+
+
+.calendar {
+    background-color: rgba(217, 247, 247, 0.6);
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar-header {
+    border-bottom: 1px solid skyblue;
+    font-size: 1.6em;
+    text-align: justify;
+}
+
+.calendar-header td {
+    border-spacing: 0;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    height: 90px;
+    width: 90px;
+   
+}
+
+.week-day {
+    font-size: 0.8em;
+  
+}
+
+
+.day {
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    line-height: 24px;
+    font-size: 0.8em;
+}
+
+.current-day {
+    background-color: black;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    /* color: white; */
+}
+.selected-day {
+    background-color:lightblue;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: black;
+}
+
+.month-popup {
+    position: absolute;
+    padding: 5px;
+    background: rgb(220, 240, 248, 0.9);
+    border: none;
+    cursor: pointer;
+}
+
+.month-popup div {
+    padding: 0.1em;
+}
+
+.month-popup a {
+    color: black;
+    text-transform: none;
+    
+}
+
+
+
+.nav-month {
+    top: 0.6em;
+    font-size: 0.6em;
+    /* width: 200px; */
+}
+
+
+.editor-year {
+    max-width: 3.6em;
+    font-size: 16px;
+    border: none;
+}
+
+
+.label-month,
+.label-year {
+    font-size: 0.68em;
+}
+
+.label-month {
+    /* cursor: pointer; */
+    z-index: 9999;
+    position: relative;
+}
+
+.fa-fw {
+    padding-top: 10px;
+    color: rgb(54, 54, 54);
+}
+
+ .fa-chevron-right {
+     padding-right: 30px;
+ }
+ 
+
+.fa-chevron-left {
+    padding-left: 20px;
+}
+

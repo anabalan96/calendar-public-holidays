@@ -1,0 +1,23 @@
+.nav {
+    position: relative;
+    z-index: 99;
+    margin: 20px;
+   /* background-color: rgba(70, 155, 155, 0.6); */
+}
+.nav-link {
+    font-weight: 700;
+    color: black;
+    transition: color 0.25s ease-out;
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgb(4, 74, 77);
+
+}
+
+.nav-link:hover{
+    font-size: 20px;
+}
+
+.nav-link-active, .nav-link-active:focus {
+    color: black;
+}

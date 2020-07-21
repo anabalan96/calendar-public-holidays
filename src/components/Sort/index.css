@@ -1,0 +1,14 @@
+.button-inline {
+    border: none;
+    background: transparent;
+    padding: 0;
+   
+}
+
+ .button-active { 
+     font-weight: bold; 
+ } 
+
+.button-inline :hover {
+    background-color: rgb(7, 82, 85);
+}

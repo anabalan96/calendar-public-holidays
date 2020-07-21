@@ -1,0 +1,10 @@
+.form-control{
+  background: rgba(217, 247, 247, 0.6);
+  color: #212529 ;
+  border: none;
+}
+
+.btn-primary{
+    background-color: rgba(4, 57, 66, 0.6);
+    border:2px solid rgb(6, 83, 97);
+}

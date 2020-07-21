@@ -1,0 +1,57 @@
+.table {
+    margin: 20px 0;
+    
+}
+
+.table-header {
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+    background: rgba(151, 219, 219, 0.6);
+    border: none;
+    
+}
+
+.table-header :hover {
+    background-color: rgba(217, 247, 247, 0.6);
+}
+
+.table-empty {
+    margin: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.table-row {
+    display: flex;
+    line-height: 25px;
+    white-space: nowrap;
+    padding: 5px;
+    background: rgba(217, 247, 247, 0.6);
+    border: none;
+    
+}
+
+.table-row :hover{
+    background-color: rgb(31, 132, 163, 0.6);
+}
+
+.table-header > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+}
+
+.table-row > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+    
+}
+
+/* .fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+} */
